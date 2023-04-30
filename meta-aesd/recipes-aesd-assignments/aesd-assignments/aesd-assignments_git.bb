@@ -7,7 +7,7 @@ inherit update-rc.d
 SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-renkh.git;protocol=ssh;branch=master"
 
 PV = "1.0+git${SRCPV}"
-SRCREV = "f4a4e11bc4a99decd989b1ddb915b4386d057467"
+SRCREV = "230a63b5bd6707de4b80e020dde06adbc4a3477c"
 
 S = "${WORKDIR}/git/server"
 
